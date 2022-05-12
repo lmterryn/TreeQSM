@@ -32,7 +32,7 @@ if AllTree
 else
     Ind = (CylInd:1:C(end))';
 end
-plot_cylinder_model(QSM.cylinder,fig,nf,1,'branch',Ind)
+plot_cylinder_model(QSM.cylinder,'branch',fig,nf,1,Ind)
 axis equal
 hold off
 alpha(1)
